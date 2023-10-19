@@ -1,0 +1,31 @@
+{
+  "name": "jsaqa_3_3",
+  "version": "1.0.0",
+  "description": "testing with puppeteer and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js"
+  },
+  "keywords": [
+    "puppeteer",
+    "cucumber",
+    "node.js"
+  ],
+  "author": "JanTey",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "cucumber": "^6.0.7",
+    "jest-puppeteer": "^9.0.1",
+    "puppeteer": "^21.3.8"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "cypress": "^13.3.2",
+    "jest": "^29.7.0",
+    "package-name": "^0.1.0"
+  }
+}
