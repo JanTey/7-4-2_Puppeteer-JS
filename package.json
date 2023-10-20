@@ -4,7 +4,7 @@
   "description": "testing with puppeteer and cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll --detectOpenHandles",
     "cucumber": "cucumber-js"
   },
   "keywords": [
